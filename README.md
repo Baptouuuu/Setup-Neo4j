@@ -9,4 +9,6 @@ Inspired by [https://github.com/nijel/rabbitmq-action](https://github.com/nijel/
 ```yml
 steps:
   - uses: baptouuuu/setup-neo4j@v1.2.0
+    with:
+      tag: '3.4' # optional 
 ```
